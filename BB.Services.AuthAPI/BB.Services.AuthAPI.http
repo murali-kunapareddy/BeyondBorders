@@ -1,0 +1,6 @@
+@BB.Services.AuthAPI_HostAddress = http://localhost:5029
+
+GET {{BB.Services.AuthAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
