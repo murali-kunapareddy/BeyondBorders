@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BB.Services.AuthAPI", "BB.Services.AuthAPI\BB.Services.AuthAPI.csproj", "{11E99D26-5881-40FC-ABC8-16617B12A426}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BB.Web", "BB.Web\BB.Web.csproj", "{D1CC2820-616A-4EEB-A549-C609F25B32A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{11E99D26-5881-40FC-ABC8-16617B12A426}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11E99D26-5881-40FC-ABC8-16617B12A426}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11E99D26-5881-40FC-ABC8-16617B12A426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1CC2820-616A-4EEB-A549-C609F25B32A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1CC2820-616A-4EEB-A549-C609F25B32A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1CC2820-616A-4EEB-A549-C609F25B32A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1CC2820-616A-4EEB-A549-C609F25B32A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{11E99D26-5881-40FC-ABC8-16617B12A426} = {D378D7FA-402B-4784-9D64-E853C1CDDD08}
+		{D1CC2820-616A-4EEB-A549-C609F25B32A0} = {7BC8C832-CAD5-4AAC-B133-88D4585B551B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {616AA054-ACA6-4718-867A-673111A476D2}
